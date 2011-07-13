@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E783D6BD1368CE1C008B5C33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E783D6BC1368CE1C008B5C33 /* UIKit.framework */; };
+		E783D6BF1368CE1C008B5C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E783D6BE1368CE1C008B5C33 /* Foundation.framework */; };
+		E783D6C11368CE1C008B5C33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E783D6C01368CE1C008B5C33 /* CoreGraphics.framework */; };
+		E783D6C71368CE1C008B5C33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E783D6C51368CE1C008B5C33 /* InfoPlist.strings */; };
+		E783D6CA1368CE1C008B5C33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E783D6C91368CE1C008B5C33 /* main.m */; };
+		E783D6CD1368CE1C008B5C33 /* ForcedotShellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E783D6CC1368CE1C008B5C33 /* ForcedotShellAppDelegate.m */; };
+		E783D6D01368CE1C008B5C33 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E783D6CE1368CE1C008B5C33 /* MainWindow.xib */; };
+		E783D6D31368CE1C008B5C33 /* ForcedotShellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E783D6D21368CE1C008B5C33 /* ForcedotShellViewController.m */; };
+		E783D6D61368CE1C008B5C33 /* ForcedotShellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E783D6D41368CE1C008B5C33 /* ForcedotShellViewController.xib */; };
+		E783D6DD1368D3B9008B5C33 /* forceshellappicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E783D6DC1368D3B9008B5C33 /* forceshellappicon.png */; };
+		E783D6ED1368D6F5008B5C33 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E783D6EC1368D6F5008B5C33 /* Default-Portrait~ipad.png */; };
+		E783D6F91368EFA7008B5C33 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E783D6F81368EFA7008B5C33 /* Settings.bundle */; };
+		E7BE1139136F35CE007A2E2F /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E783D6EE1368D6FE008B5C33 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E783D6B81368CE1C008B5C33 /* Demo Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E783D6BC1368CE1C008B5C33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E783D6BE1368CE1C008B5C33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E783D6C01368CE1C008B5C33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E783D6C41368CE1C008B5C33 /* ForcedotShell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForcedotShell-Info.plist"; sourceTree = "<group>"; };
+		E783D6C61368CE1C008B5C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E783D6C81368CE1C008B5C33 /* ForcedotShell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForcedotShell-Prefix.pch"; sourceTree = "<group>"; };
+		E783D6C91368CE1C008B5C33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E783D6CB1368CE1C008B5C33 /* ForcedotShellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForcedotShellAppDelegate.h; sourceTree = "<group>"; };
+		E783D6CC1368CE1C008B5C33 /* ForcedotShellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForcedotShellAppDelegate.m; sourceTree = "<group>"; };
+		E783D6CF1368CE1C008B5C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E783D6D11368CE1C008B5C33 /* ForcedotShellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForcedotShellViewController.h; sourceTree = "<group>"; };
+		E783D6D21368CE1C008B5C33 /* ForcedotShellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForcedotShellViewController.m; sourceTree = "<group>"; };
+		E783D6D51368CE1C008B5C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ForcedotShellViewController.xib; sourceTree = "<group>"; };
+		E783D6DC1368D3B9008B5C33 /* forceshellappicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forceshellappicon.png; sourceTree = "<group>"; };
+		E783D6EC1368D6F5008B5C33 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E783D6EE1368D6FE008B5C33 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		E783D6F81368EFA7008B5C33 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E783D6FA1369D865008B5C33 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E783D6B51368CE1C008B5C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E783D6BD1368CE1C008B5C33 /* UIKit.framework in Frameworks */,
+				E783D6BF1368CE1C008B5C33 /* Foundation.framework in Frameworks */,
+				E783D6C11368CE1C008B5C33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E783D6AD1368CE1C008B5C33 = {
+			isa = PBXGroup;
+			children = (
+				E783D6F81368EFA7008B5C33 /* Settings.bundle */,
+				E783D6EE1368D6FE008B5C33 /* Default-Landscape~ipad.png */,
+				E783D6EC1368D6F5008B5C33 /* Default-Portrait~ipad.png */,
+				E783D6DC1368D3B9008B5C33 /* forceshellappicon.png */,
+				E783D6C21368CE1C008B5C33 /* ForcedotShell */,
+				E783D6BB1368CE1C008B5C33 /* Frameworks */,
+				E783D6B91368CE1C008B5C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E783D6B91368CE1C008B5C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E783D6B81368CE1C008B5C33 /* Demo Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E783D6BB1368CE1C008B5C33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E783D6BC1368CE1C008B5C33 /* UIKit.framework */,
+				E783D6BE1368CE1C008B5C33 /* Foundation.framework */,
+				E783D6C01368CE1C008B5C33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E783D6C21368CE1C008B5C33 /* ForcedotShell */ = {
+			isa = PBXGroup;
+			children = (
+				E783D6CB1368CE1C008B5C33 /* ForcedotShellAppDelegate.h */,
+				E783D6CC1368CE1C008B5C33 /* ForcedotShellAppDelegate.m */,
+				E783D6CE1368CE1C008B5C33 /* MainWindow.xib */,
+				E783D6D11368CE1C008B5C33 /* ForcedotShellViewController.h */,
+				E783D6D21368CE1C008B5C33 /* ForcedotShellViewController.m */,
+				E783D6D41368CE1C008B5C33 /* ForcedotShellViewController.xib */,
+				E783D6C31368CE1C008B5C33 /* Supporting Files */,
+				E783D6FA1369D865008B5C33 /* Constants.h */,
+			);
+			path = ForcedotShell;
+			sourceTree = "<group>";
+		};
+		E783D6C31368CE1C008B5C33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E783D6C41368CE1C008B5C33 /* ForcedotShell-Info.plist */,
+				E783D6C51368CE1C008B5C33 /* InfoPlist.strings */,
+				E783D6C81368CE1C008B5C33 /* ForcedotShell-Prefix.pch */,
+				E783D6C91368CE1C008B5C33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E783D6B71368CE1C008B5C33 /* ForcedotShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E783D6D91368CE1C008B5C33 /* Build configuration list for PBXNativeTarget "ForcedotShell" */;
+			buildPhases = (
+				E783D6B41368CE1C008B5C33 /* Sources */,
+				E783D6B51368CE1C008B5C33 /* Frameworks */,
+				E783D6B61368CE1C008B5C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForcedotShell;
+			productName = ForcedotShell;
+			productReference = E783D6B81368CE1C008B5C33 /* Demo Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E783D6AF1368CE1C008B5C33 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E783D6B21368CE1C008B5C33 /* Build configuration list for PBXProject "ForcedotShell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E783D6AD1368CE1C008B5C33;
+			productRefGroup = E783D6B91368CE1C008B5C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E783D6B71368CE1C008B5C33 /* ForcedotShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E783D6B61368CE1C008B5C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E783D6C71368CE1C008B5C33 /* InfoPlist.strings in Resources */,
+				E783D6D01368CE1C008B5C33 /* MainWindow.xib in Resources */,
+				E783D6D61368CE1C008B5C33 /* ForcedotShellViewController.xib in Resources */,
+				E783D6DD1368D3B9008B5C33 /* forceshellappicon.png in Resources */,
+				E783D6ED1368D6F5008B5C33 /* Default-Portrait~ipad.png in Resources */,
+				E783D6F91368EFA7008B5C33 /* Settings.bundle in Resources */,
+				E7BE1139136F35CE007A2E2F /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E783D6B41368CE1C008B5C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E783D6CA1368CE1C008B5C33 /* main.m in Sources */,
+				E783D6CD1368CE1C008B5C33 /* ForcedotShellAppDelegate.m in Sources */,
+				E783D6D31368CE1C008B5C33 /* ForcedotShellViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E783D6C51368CE1C008B5C33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E783D6C61368CE1C008B5C33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E783D6CE1368CE1C008B5C33 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E783D6CF1368CE1C008B5C33 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E783D6D41368CE1C008B5C33 /* ForcedotShellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E783D6D51368CE1C008B5C33 /* en */,
+			);
+			name = ForcedotShellViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E783D6D71368CE1C008B5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = SZAMQ639CZ.com.salesforce.internal.SEDemoLauncher;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E783D6D81368CE1C008B5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = SZAMQ639CZ.com.salesforce.internal.SEDemoLauncher;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E783D6DA1368CE1C008B5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForcedotShell/ForcedotShell-Prefix.pch";
+				INFOPLIST_FILE = "ForcedotShell/ForcedotShell-Info.plist";
+				PRODUCT_NAME = "Demo Launcher";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E783D6DB1368CE1C008B5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForcedotShell/ForcedotShell-Prefix.pch";
+				INFOPLIST_FILE = "ForcedotShell/ForcedotShell-Info.plist";
+				PRODUCT_NAME = "Demo Launcher";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E783D6B21368CE1C008B5C33 /* Build configuration list for PBXProject "ForcedotShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E783D6D71368CE1C008B5C33 /* Debug */,
+				E783D6D81368CE1C008B5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E783D6D91368CE1C008B5C33 /* Build configuration list for PBXNativeTarget "ForcedotShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E783D6DA1368CE1C008B5C33 /* Debug */,
+				E783D6DB1368CE1C008B5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E783D6AF1368CE1C008B5C33 /* Project object */;
+}
